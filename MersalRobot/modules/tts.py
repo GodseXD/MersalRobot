@@ -12,7 +12,7 @@ import json
 import urllib.request
 import urllib.parse
 import requests
-from VegetaRobot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
+from MersalRobot import (DEV_USERS, OWNER_ID, DRAGONS, SUPPORT_CHAT, DEMONS,
                           TIGERS, WOLVES, dispatcher,updater)
 from MersalRobot.__main__ import STATS, TOKEN, USER_INFO
 from MersalRobot.modules.disable import DisableAbleCommandHandler
