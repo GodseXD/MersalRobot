@@ -836,7 +836,8 @@ def unfban(update: Update, context: CallbackContext):
         send_message(update.effective_message,
                      "This command is specific to the group, not to our pm!")
         return
-	    fed_id = sql.get_fed_id(chat.id)
+
+    fed_id = sql.get_fed_id(chat.id)
 
     if not fed_id:
         update.effective_message.reply_text(
