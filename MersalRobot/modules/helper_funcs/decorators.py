@@ -6,7 +6,7 @@ from typing import Optional, Union, List
 
 
 
-class VegetaTelegramHandler:
+class MersalTelegramHandler:
     def __init__(self, d):
         self._dispatcher = d
 
