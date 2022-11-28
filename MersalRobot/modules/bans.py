@@ -13,7 +13,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async
 from telegram.utils.helpers import mention_html
 
-from VegetaRobot import (
+from MersalRobot import (
     DEV_USERS,
     LOGGER,
     OWNER_ID,
