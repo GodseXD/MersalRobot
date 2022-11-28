@@ -1,5 +1,5 @@
-from VegetaRobot import dispatcher
-from VegetaRobot.modules.helper_funcs.chat_status import (
+from MersalRobot import dispatcher
+from MersalRobot.modules.helper_funcs.chat_status import (
     bot_admin, is_bot_admin, is_user_ban_protected, is_user_in_chat)
 from MersalRobot.modules.helper_funcs.extraction import extract_user_and_text
 from MersalRobot.modules.helper_funcs.filters import CustomFilters
