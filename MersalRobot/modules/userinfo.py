@@ -581,4 +581,5 @@ __mod_name__ = "Userinfo"
 __command_list__ = ["setbio", "bio", "setme", "me", "info"]
 __handlers__ = [
     ID_HANDLER, GIFID_HANDLER, INFO_HANDLER, SET_BIO_HANDLER, GET_BIO_HANDLER,
-    SET_ABOUT_HANDL
+    SET_ABOUT_HANDLER, GET_ABOUT_HANDLER, STATS_HANDLER
+]
