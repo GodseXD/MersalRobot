@@ -3,7 +3,7 @@ import re
 import os
 import html
 import requests
-import VegetaRobot.modules.sql.chatbot_sql as sql
+import MersalRobot.modules.sql.chatbot_sql as sql
 
 from time import sleep
 from telegram import ParseMode
