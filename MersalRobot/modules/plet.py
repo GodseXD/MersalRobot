@@ -9,7 +9,7 @@ from telegram.ext import CallbackContext, run_async
 
 from MersalRobot import dispatcher
 from MersalRobot.modules.disable import DisableAbleCommandHandler
-from MersalRobot.modules.thonkify_dict import thonkify_dict      
+from MersalRobot.modules.thonkify_dict import thonkifydict      
 
 
 @run_async
